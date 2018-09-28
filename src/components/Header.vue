@@ -17,6 +17,11 @@
              <li><router-link to="/About" >关于我们</router-link></li>
            
           </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><router-link to="/Add" >添加用户</router-link></li>
+             
+           
+          </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
