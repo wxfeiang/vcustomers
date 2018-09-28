@@ -1,6 +1,6 @@
 <template>
 <div class="customers">
-   <h1>about</h1>
+   <h1>这是首页</h1>
 </div>
     
 </template>
