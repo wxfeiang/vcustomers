@@ -1,8 +1,12 @@
 //引入路由
-import header from './components/header'
+
 import Customers from './components/Customers'
 import About from './components/About'
 import  Add from './components/Add'
+// 详情
+import  Customerdel from './components/Customerdel'
+// 编辑
+import Edit from './components/Edit'
 
 export const routes = [
 
@@ -17,6 +21,14 @@ export const routes = [
     {
         path: '/Add',
         component: Add
+    },
+    {
+        path: '/customer/:id',
+        component: Customerdel
+    },
+    {
+        path: '/edit/:id',
+        component: Edit
     }
 
 

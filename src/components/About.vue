@@ -1,6 +1,6 @@
 <template>
 <div class="about">
-  <h1>这是关于我们页面</h1>
+  <h1>这个是关于我们页面  路由跳转</h1>
 </div>
     
 </template>
